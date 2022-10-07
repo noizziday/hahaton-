@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login pls(</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style/LoginRegistration.css" />
+  </head>
+  <body>
+    <!-- Титульное окно -->
+    <div class="registration">
+      <div class="registration-block">
+        <div class="registration-words">
+          <h1 style="color: white">Hello!</h1>
+        </div>
+        <div class="registration-body">
+          <div class="registration-body-words">
+            <div>Register now!</div>
+            <div>If you want to :( or login if you already registered</div>
+          </div>
+          <div class="reg-btns">
+            <img
+              src="https://static.wikia.nocookie.net/write-epic-battles-wiki/images/2/25/B0CB7EB9-2C48-4B4C-9009-9E3441A8DE25.gif/revision/latest?cb=20191209190640"
+              alt=""
+              style="width: 100%"
+              class="steve"
+            />
+            <div
+              style="
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                height: 15%;
+                width: 100%;
+              "
+            >
+              <button
+                class="login-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Login
+              </button>
+              <button
+                class="reg-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Registration
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Модальное окно -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-0">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Account</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Закрыть"
+              id="btn-close-modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- for register -->
+            <div class="d-flex flex-column w-100" id="registerUser-block">
+              <h2>Register user</h2>
+              <input
+                type="text"
+                id="reg-username"
+                placeholder="Username"
+                class="mb-2 w-100 form-control"
+              />
+              <input
+                type="number"
+                id="reg-age"
+                placeholder="Age"
+                class="mb-2 w-100 form-control"
+              />
+              <input
+                type="password"
+                id="reg-password"
+                placeholder="Password"
+                class="mb-2 w-100 form-control"
+              />
+              <input
+                type="password"
+                id="reg-passwordConfirm"
+                placeholder="Password confirmation"
+                class="mb-2 w-100 form-control"
+              />
+              <div>
+                <input type="checkbox" id="isAdmin" />
+                <label for="isAdmin">Admin</label>
+              </div>
+              <div id="reg-warnings"></div>
+            </div>
+            <!-- for login -->
+            <div class="d-flex flex-column w-100" id="loginUser-block">
+              <h2>Login user</h2>
+              <input
+                type="text"
+                id="login-username"
+                placeholder="Username"
+                class="mb-2 w-100 form-control"
+              />
+              <input
+                type="password"
+                id="login-password"
+                placeholder="Password"
+                class="mb-2 w-100 form-control"
+              />
+              <div id="log-warnings"></div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <!-- for register -->
+            <button type="button" class="btn btn-success" id="registerUser-btn">
+              Register
+            </button>
+            <!-- for login -->
+            <button type="button" class="btn btn-primary" id="loginUser-btn">
+              Login
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/LoginRegistration-page.js"></script>
+  </body>
+</html>

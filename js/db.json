@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "username": "noizziday",
+      "age": "18",
+      "password": "123",
+      "isAdmin": true,
+      "id": 1
+    },
+    {
+      "username": "ww",
+      "age": "12",
+      "password": "123",
+      "isAdmin": true,
+      "id": 2
+    },
+    {
+      "username": "wwwww",
+      "age": "12",
+      "password": "12",
+      "isAdmin": false,
+      "id": 3
+    },
+    {
+      "username": "123",
+      "age": "123",
+      "password": "123",
+      "isAdmin": true,
+      "id": 4
+    },
+    {
+      "username": "asd",
+      "age": "12",
+      "password": "asdasd",
+      "isAdmin": false,
+      "id": 5
+    },
+    {
+      "username": "awd",
+      "age": "12",
+      "password": "12",
+      "isAdmin": false,
+      "id": 6
+    },
+    {
+      "username": "Asel",
+      "age": "15",
+      "password": "123",
+      "isAdmin": true,
+      "id": 7
+    },
+    {
+      "username": "1234",
+      "age": "1234",
+      "password": "1234",
+      "isAdmin": true,
+      "id": 8
+    },
+    {
+      "username": "baha",
+      "age": "12",
+      "password": "22",
+      "isAdmin": false,
+      "id": 9
+    },
+    {
+      "username": "wwww",
+      "age": "12",
+      "password": "12",
+      "isAdmin": false,
+      "id": 10
+    }
+  ],
+  "products": [
+    {
+      "title": "Golden pickaxe",
+      "price": "200$",
+      "desc": "goldegolde",
+      "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/dd/Enchanted_Golden_Pickaxe.gif/revision/latest?cb=20201118111836",
+      "category": "pickaxes",
+      "id": 1
+    },
+    {
+      "title": "Mithrill pickaxe",
+      "price": "100$",
+      "desc": "mmmm",
+      "image": "https://wiki.hypixel.net/images/b/b6/SkyBlock_items_enchanted_iron_pickaxe.gif",
+      "category": "pickaxes",
+      "id": 2
+    },
+    {
+      "title": "wqeqeweq",
+      "price": "132331",
+      "desc": "21312",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9iYEY1Aqmvf6LgvU0fVSxytaTLvr3OhSu8_BjOYHRg-OuUdn_fk0ftDi6daUa5ZClGmQ&usqp=CAU",
+      "category": "qweqwe",
+      "id": 3
+    },
+    {
+      "title": "wqeqweqew",
+      "price": "213123",
+      "desc": "qweqw",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrkF-z5Z80WoJ1pMLvzdh7MnjUt_y-LPXHt3tpnJUoZMZKecbGhxeHJ3PRMCURK9Eyejw&usqp=CAU",
+      "category": "qweqw",
+      "id": 4
+    }
+  ]
+}
